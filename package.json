@@ -1,0 +1,19 @@
+{
+  "name": "alu-canvas-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web scraping project for ALU Canvas assignments using Playwright",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "jquery": "^4.0.0",
+    "playwright": "^1.63.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
